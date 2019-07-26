@@ -27,4 +27,4 @@ services:
       - HUB_HOST=hub
       - MODULE=book-flight-module.xml
     volumes:
-      - ./search-result1:/usr/share/udemy/test-output
+      - ./book-flight:/usr/share/udemy/test-output
