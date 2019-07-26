@@ -2,7 +2,7 @@ version: "3"
 services:
   hub:
     image: selenium/hub:3.141.59
-  chrome:                                                  
+  chrome:
     image: selenium/node-chrome:3.141.59
     depends_on:
       - hub
@@ -25,4 +25,4 @@ services:
       - HUB_HOST=hub
       - MODULE=book-flight-module.xml
     volumes:
-      - ./output/book-flight:/usr/share/udemy/test-output
+      - ./Result/book-flight:/usr/share/udemy/test-output
