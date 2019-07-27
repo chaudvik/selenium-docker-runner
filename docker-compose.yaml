@@ -15,7 +15,7 @@ services:
       - hub
     environment:
       - HUB_HOST=hub
-  book-flight-module:
+  search-module:
     image: vikrantdocker9/vicky-selenium-docker
     depends_on:
       - chrome
@@ -23,6 +23,6 @@ services:
     environment:
       - BROWSER=chrome
       - HUB_HOST=hub
-      - MODULE=book-flight-module.xml
+      - MODULE=search-module.xml
     volumes:
-      - ./Result/book-flight:/usr/share/udemy/test-output
+      - ./Result/search:/usr/share/udemy/test-output

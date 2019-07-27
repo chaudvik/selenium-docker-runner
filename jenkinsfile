@@ -13,7 +13,7 @@ pipeline{
 		}
 		stage("Run the Tests"){
 			steps{
-				bat "docker-compose up --scale chrome=4 book-flight-module"
+				bat "docker-compose up search-module"
 			}
 		}
 	}
