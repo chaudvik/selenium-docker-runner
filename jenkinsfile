@@ -3,7 +3,7 @@ pipeline{
 	stages{
 		stage("Pull Latest Image"){
 			steps{
-				bat "docker pull vikrantdocker9/vikrants-selenium-docker"
+				bat "docker pull vikrantdocker9/vicky-selenium-docker"
 			}
 		}
 		stage("Start Grid"){

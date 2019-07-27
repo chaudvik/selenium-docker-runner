@@ -16,7 +16,7 @@ services:
     environment:
       - HUB_HOST=hub
   book-flight-module:
-    image: vikrantdocker9/vikrants-selenium-docker
+    image: vikrantdocker9/vicky-selenium-docker
     depends_on:
       - chrome
       - firefox
