@@ -23,6 +23,6 @@ services:
     environment:
       - BROWSER=chrome
       - HUB_HOST=hub
-      - MODULE=search-module.xml
+      - MODULE=book-flight-module.xml
     volumes:
       - ./Result/search:/usr/share/udemy/test-output
